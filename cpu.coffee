@@ -3,14 +3,14 @@ command: "ESC=`printf \"\e\"`; ps -A -o %cpu | awk '{s+=$1} END {printf(\"%02d\"
 refreshFrequency: 2000 # ms
 
 render: (output) ->
-  "cpu <span>#{output}</span>"
+  "C <span>#{output}</span>"
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #D5C4A1
+  color: #FFE082
   font: 12px Knack Nerd Font
-  right: 262px
+  right: 238px
   top: 4px
   span
-    color: #7AAB7E
+    color: #8BC34A
 """

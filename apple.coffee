@@ -1,18 +1,14 @@
-command: "/usr/local/bin/chunkc tiling::query --window tag"
-
-refreshFrequency: 1000 # ms
-
 render: (output) ->
-  "#{output}"
+  ""
 
 style: """
   -webkit-font-smoothing: antialiased
   color: #BDBDBD
-  font: 12px Knack Nerd font
+  font: 15px Knack Nerd font
   height: 16px
-  left: 34px
+  left: 10px
   overflow: hidden
   text-overflow: ellipsis
-  top: 4px
+  top: 2px
   width: 500px
 """

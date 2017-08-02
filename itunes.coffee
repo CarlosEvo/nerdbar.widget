@@ -1,6 +1,6 @@
 command: "osascript $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/itunes.scpt"
 
-refreshFrequency: 5000 # ms
+refreshFrequency: 2000 # ms
 
 render: (output) -> """
   <span class="right bottom" id="play">#{output}</span>

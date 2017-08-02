@@ -1,16 +1,16 @@
-command: "ESC=`printf \"\e\"`; ps -A -o %mem | awk '{s+=$1} END {print \"\" s}'"
+command: "ESC=`printf \"\e\"`; ps -A -o %mem | awk '{s+=$1} END {print \"\" s}' | awk '{print substr($0,0,2)}'"
 
 refreshFrequency: 30000 # ms
 
 render: (output) ->
-  "mem <span>#{output}</span>"
+  "M <span>#{output}</span>"
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #D5C4A1
+  color: #FFE082
   font: 12px Knack Nerd Font
-  right: 13.3%
+  right: 193px
   top: 4px
   span
-    color: #9C9486
+    color: #607D8B
 """
