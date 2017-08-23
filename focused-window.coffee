@@ -10,9 +10,9 @@ style: """
   color: #BDBDBD
   font: 12px Knack Nerd font
   height: 16px
-  left: 34px
+  left: 45px
   overflow: hidden
   text-overflow: ellipsis
-  top: 4px
+  top: 3px
   width: 500px
 """
