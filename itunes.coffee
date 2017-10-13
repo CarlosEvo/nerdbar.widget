@@ -16,7 +16,7 @@ afterRender: (domEl) ->
 style: """
   -webkit-font-smoothing: antialiased
   text-align: center
-  color: #856bfb
+  color: #6a1e9a
   font: 11px Knack Nerd Font
   height: 21px
   top: 5px

@@ -10,7 +10,7 @@ style: """
   font: 12px Knack Nerd Font
   top: 4px
   right: 145px
-  color: #FFC107
+  color: #f9a825
   span
-    color: #9E9E9E
+    color: #545454
 """
