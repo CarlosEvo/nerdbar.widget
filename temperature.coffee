@@ -7,10 +7,10 @@ render: (output) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #f9a825
+  color: #212121
   font: 12px Knack Nerd Font
   right: 312px
   top: 4px
   span
-    color: #c62828
+    color: #212121
 """
