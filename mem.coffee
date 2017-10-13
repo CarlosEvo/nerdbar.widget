@@ -1,4 +1,4 @@
-command: "ESC=`printf \"\e\"`; ps -A -o %mem | awk '{s+=$1} END {print \"\" s}' | awk '{print substr($0,0,2)}'"
+command: "/usr/local/bin/python3 $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/mem.py"
 
 refreshFrequency: 30000 # ms
 
@@ -9,7 +9,7 @@ style: """
   -webkit-font-smoothing: antialiased
   color: #FFE082
   font: 12px Knack Nerd Font
-  right: 195px
+  right: 190px
   top: 4px
   span
     color: #607D8B

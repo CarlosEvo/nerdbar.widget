@@ -1,4 +1,4 @@
-command: "df | grep /dev/disk1 | awk -F'[ ,]+' '{print $5}'"
+command: "/usr/local/bin/python3 $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/disk.py"
 
 refreshFrequency: 60000 # ms
 
@@ -9,7 +9,7 @@ style: """
   -webkit-font-smoothing: antialiased
   color: #FFE082
   font: 12px Knack Nerd Font
-  right: 275px
+  right: 270px
   top: 4px
   span
     color: #9E9E9E

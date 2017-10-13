@@ -3,13 +3,13 @@ command: "echo `/usr/local/bin/smartctl -s on -a disk0 | grep Temperature | awk 
 refreshFrequency: 8000 # ms
 
 render: (output) ->
-  " <span>#{output}</span>"
+  "T <span>#{output}</span>"
 
 style: """
   -webkit-font-smoothing: antialiased
   color: #FFE082
   font: 12px Knack Nerd Font
-  right: 325px
+  right: 312px
   top: 4px
   span
     color: #F44336

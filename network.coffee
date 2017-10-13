@@ -9,8 +9,10 @@ style: """
   -webkit-font-smoothing: antialiased
   color: #D5C4A1
   font: 14px Knack Nerd Font
-  right: 385px
+  right: 370px
   top: 2.5px
+  overflow: shown
+  text-overflow: ellipsis
   span
     color: #03A9F4
 """

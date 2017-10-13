@@ -9,7 +9,7 @@ style: """
   -webkit-font-smoothing: antialiased
   color: #FFE082
   font: 12px Knack Nerd Font
-  right: 235px
+  right: 230px
   top: 4px
   span
     color: #8BC34A
