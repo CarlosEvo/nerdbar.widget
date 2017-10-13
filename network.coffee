@@ -14,5 +14,5 @@ style: """
   overflow: shown
   text-overflow: ellipsis
   span
-    color: #03A9F4
+    color: #BDBDBD
 """
