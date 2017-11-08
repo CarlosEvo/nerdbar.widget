@@ -1,4 +1,4 @@
-command: "osascript $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/itunes.scpt"
+command: "osascript $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/itunes.applescript"
 
 refreshFrequency: 2000 # ms
 
