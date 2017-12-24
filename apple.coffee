@@ -3,12 +3,11 @@ render: (output) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #212121
-  font: 15px Knack Nerd font
+  color: #539AFC
+  font: 14px Knack Nerd font
   height: 16px
-  left: 23px
+  left: 90px
   overflow: shown
   text-overflow: ellipsis
-  top: 2px
-  width: 500px
+  top: 8px
 """

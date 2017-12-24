@@ -1,6 +1,6 @@
-command: "osascript $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/itunes.applescript"
+command: "export PYTHONIOENCODING='utf-8' && /usr/local/bin/python3 -W ignore $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/itunes.py"
 
-refreshFrequency: 2000 # ms
+refreshFrequency: 1000 # ms
 
 render: (output) -> """
   <span class="right bottom" id="play">#{output}</span>
@@ -11,19 +11,19 @@ afterRender: (domEl) ->
 	$(domEl).addClass button.get(0).className
 	button.unbind 'click'
 	button.on 'click', (ev) =>
-    @run("osascript $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/play.scpt")
+    @run("osascript $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/play.applescript")
 
 style: """
   -webkit-font-smoothing: antialiased
   text-align: center
-  color: #212121
-  font: 11px Knack Nerd Font
-  height: 21px
-  top: 5px
-  left: 25%
+  color: #B62D65
+  font: 12px Knack Nerd Font
+  height: 15px
+  top: 10px
+  left: 30%
   overflow: hidden
   text-overflow: ellipsis
-  width: 50%
+  width: 40%
   span
-    color: #212121
+    color: #B62D65
 """

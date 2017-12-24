@@ -3,14 +3,15 @@ command: "/usr/local/bin/python3 $HOME/Library/Application\\ Support/Übersicht
 refreshFrequency: 60000 # ms
 
 render: (output) ->
-  "D <span>#{output}</span>"
+  "<span>|</span>  <span>#{output}</span>"
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #212121
+  color: #70ab7e
   font: 12px Knack Nerd Font
-  right: 270px
-  top: 4px
+  right: 225px
+  top: 10px
+  overflow: shown
   span
-    color: #212121
+    color: #b7c5d3
 """

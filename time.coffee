@@ -1,14 +1,14 @@
-command: "date +\"%H:%M\""
+command: "date +\"%a %d %b %H:%M\""
 
 refreshFrequency: 10000 # ms
 
 render: (output) ->
-  "#{output}"
+  "| <b>#{output}</b>"
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #212121
+  color: #b7c5d3
   font: 12px Knack Nerd Font
-  right: 10px
-  top: 4px
+  right: 90px
+  top: 10px
 """

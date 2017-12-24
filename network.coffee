@@ -1,18 +1,16 @@
-command: "/Users/CarlosZhang/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/network.sh"
+command: "export PYTHONIOENCODING='utf-8' && $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/network.sh"
 
 refreshFrequency: 15000 # ms
 
 render: (output) ->
-  "<span>#{output}</span>"
+  "#{output}"
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #212121
+  color: #5ec4ff
   font: 14px Knack Nerd Font
-  right: 370px
-  top: 2.5px
+  right: 425px
+  top: 8px
   overflow: shown
   text-overflow: ellipsis
-  span
-    color: #212121
 """

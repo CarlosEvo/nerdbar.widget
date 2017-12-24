@@ -1,16 +1,14 @@
-command: "echo `/usr/local/bin/smartctl -s on -a disk0 | grep Temperature | awk -F'[^0-9]*' '{print $7}'`°C"
+command: "export PYTHONIOENCODING='utf-8' && /usr/local/bin/python3 $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/temperature.py"
 
 refreshFrequency: 8000 # ms
 
 render: (output) ->
-  "T <span>#{output}</span>"
+  "#{output}"
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #212121
-  font: 12px Knack Nerd Font
-  right: 312px
-  top: 4px
-  span
-    color: #212121
+  color: #D95468
+  font: 14px Knack Nerd Font
+  right: 407.5px
+  top: 9px
 """

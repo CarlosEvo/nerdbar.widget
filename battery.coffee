@@ -1,16 +1,14 @@
-command: "/usr/local/bin/python3 $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/battery.py"
+command: "export PYTHONIOENCODING='utf-8' && /usr/local/bin/python3 $HOME/Library/Application\\ Support/Übersicht/widgets/nerdbar.widget/scripts/battery.py"
 
 refreshFrequency: 150000 # ms
 
 render: (output) ->
-  "<i>⚡</i><span>#{output}<\span>"
+  "#{output}"
 
 style: """
   -webkit-font-smoothing: antialiased
-  font: 12px Knack Nerd Font
-  top: 4px
-  right: 145px
-  color: #212121
-  span
-    color: #212121
+  font: 15px Knack Nerd Font
+  top: 8.5px
+  right: 380px
+  color: #D98E48
 """
